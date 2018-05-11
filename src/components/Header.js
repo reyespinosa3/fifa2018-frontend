@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import './Header.css';
 
 class Header extends Component {
   constructor(){
@@ -55,15 +55,16 @@ componentDidMount(){
     render() {
 
     return (
-      <div className='App'>
+      <div className='App-header'>
         <h1>Countdown to FIFA 2018 World Cup</h1>
-        <h1>Host Nation: Russia</h1>
+        <h2>Host Nation: Russia</h2>
           <div className='Countdown-div'>
-            <h1>Days: {this.state.days}</h1>
-            <h1>Hours: {this.state.hours}</h1>
-            <h1>Minutes: {this.state.minutes}</h1>
+            <h3>Days: {this.state.days}</h3>
+            <h3>Hours: {this.state.hours}</h3>
+            <h3>Minutes: {this.state.minutes}</h3>
+            <h3>Until first kick-off</h3>
           </div>
-        <h1>Until first kick-off</h1>
+
       </div>
     );
   }
