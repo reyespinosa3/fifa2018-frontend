@@ -5,6 +5,7 @@ import fifa2014brazil from './images/fifa2014brazil.png';
 import fifa2014brazillogo from './images/fifa2014brazillogo.png';
 import fifa2014brazilparrot from './images/fifa2014brazilparrot.png';
 import fifa2014brazilsoccerball from './images/fifa2014brazilsoccerball.png';
+import FifaFooter from './FifaFooter';
 
 class Fifa2014Details extends Component {
   render() {
@@ -22,17 +23,22 @@ class Fifa2014Details extends Component {
         <h4>Links will take you to the OFFICIAL FIFA.com site and open in a new window</h4>
 
         <div className="links">
-          <a className="a-links" href="http://www.fifa.com/worldcup/archive/brazil2014/matches/index.html" target="_blank">All 2014 Matches</a>
-          <a className="a-links" href="http://www.fifa.com/worldcup/archive/brazil2014/teams/index.html" target="_blank">All 2014 Teams</a>
-          <a className="a-links" href="http://www.fifa.com/worldcup/archive/brazil2014/groups/index.html" target="_blank">All 2014 Groups</a>
-          <a className="a-links" href="http://www.fifa.com/worldcup/archive/brazil2014/awards/index.html" target="_blank">All 2014 Awards</a>
-          <a className="a-links" href="http://www.fifa.com/worldcup/archive/brazil2014/statistics/index.html" target="_blank">All 2014 Statistics</a>
+          <a className="a-links" href="http://www.fifa.com/worldcup/archive/brazil2014/matches/index.html"
+          target="_blank" rel="noopener noreferrer">All 2014 Matches</a>
+          <a className="a-links" href="http://www.fifa.com/worldcup/archive/brazil2014/teams/index.html"
+          target="_blank" rel="noopener noreferrer">All 2014 Teams</a>
+          <a className="a-links" href="http://www.fifa.com/worldcup/archive/brazil2014/groups/index.html"
+          target="_blank" rel="noopener noreferrer">All 2014 Groups</a>
+          <a className="a-links" href="http://www.fifa.com/worldcup/archive/brazil2014/awards/index.html"
+          target="_blank" rel="noopener noreferrer">All 2014 Awards</a>
+          <a className="a-links" href="http://www.fifa.com/worldcup/archive/brazil2014/statistics/index.html"
+          target="_blank" rel="noopener noreferrer">All 2014 Statistics</a>
         </div>
 
         <div className="image">
           <img id="results" src={fifa2014results} alt="fifa 2014 winners"></img>
         </div>
-
+        <FifaFooter />
       </div>
     );
   }

@@ -11,8 +11,8 @@ class Fifa2014 extends Component {
         <h5>Or watch this 5 minute video showing all the goals scored</h5>
         <h5>in the 2014 FIFA World Cup in Brazil</h5>
         <iframe width="400" height="250" title="2014Goals"
-          src="https://www.youtube.com/embed/DjvKaJdfEDg"
-          frameBorder="0" allow="autoplay; encrypted-media"
+          src="https://www.youtube.com/embed/Bef16eykyKU"
+          frameBorder="15" allow="autoplay; encrypted-media"
           allowFullScreen></iframe>
       </div>
     );
