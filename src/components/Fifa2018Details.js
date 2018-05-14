@@ -4,6 +4,8 @@ import Fifa2018Rank from './Fifa2018Rank';
 import FifaFooter from './FifaFooter';
 import Fifa2018Groups from './Fifa2018Groups';
 import axios from 'axios';
+import fifa2018russialogo from './images/fifa2018russialogo.png';
+import fifa2018russia from './images/fifa2018russia.png';
 
 class Fifa2018Details extends Component {
   state = {
@@ -47,7 +49,11 @@ class Fifa2018Details extends Component {
 
     return (
       <div>
-          <h1>Teams By Region</h1>
+        <div className="fifa2018images">
+          <img src={fifa2018russialogo}></img>
+          <img src={fifa2018russia}></img>
+        </div>
+        <h1>Teams By Region</h1>
         <div className="Details-div">
 
             <table border='1' cellSpacing='15' cellPadding='15'>
