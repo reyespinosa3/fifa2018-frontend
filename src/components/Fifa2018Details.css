@@ -1,0 +1,18 @@
+.Details-div {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  background-color: lightblue;
+}
+
+.Details-header {
+  background-color: red;
+  font-size: 20px;
+}
+
+td {
+  font-size: 16px;
+  text-align: center;
+}
