@@ -11,7 +11,6 @@ class Fifa2018Groups extends Component {
   componentDidMount() {
     axios.get(`//localhost:8080/api/teams`)
       .then(res => {
-        console.log(res);
         const teams = res.data;
         this.setState({ teams });
       })
@@ -60,7 +59,7 @@ class Fifa2018Groups extends Component {
       <div>
         <h1>Teams By Groups</h1>
         <div className="Groups-div">
-          <table border='1'>
+          <table border='1' cellSpacing='5' cellPadding='15'>
             <tbody>
               <tr>
                 <th className="Groups-header">Group A</th>

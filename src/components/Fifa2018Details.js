@@ -50,7 +50,7 @@ class Fifa2018Details extends Component {
           <h1>Teams By Region</h1>
         <div className="Details-div">
 
-            <table border='1' cellspacing='5'>
+            <table border='1' cellSpacing='15' cellPadding='15'>
               <tbody>
                 <tr>
                   <th className="Details-header">Europe</th>

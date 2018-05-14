@@ -1,4 +1,11 @@
 .App-header {
   background-color: darkblue;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Countdown-div {
+  background-color: red;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
 }

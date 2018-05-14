@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './Fifa2018Groups.css';
+import './Fifa2018Rank.css';
 
 class Fifa2018Rank extends Component {
   state = {
@@ -10,7 +10,6 @@ class Fifa2018Rank extends Component {
   componentDidMount() {
     axios.get(`//localhost:8080/api/teams`)
       .then(res => {
-        console.log(res);
         const teams = res.data;
         this.setState({ teams });
       })
@@ -20,13 +19,13 @@ class Fifa2018Rank extends Component {
     return (
       <div>
         <h1> Teams by FIFA Rank </h1>
-        <div className="Groups-div">
-        <table border='1'>
+        <div className="Rank-div">
+        <table border='1' cellSpacing='5' cellPadding='15'>
           <tbody>
-            <tr className="Groups-header">Country and Rank</tr>
+            <tr className="Rank-header">Country and Rank</tr>
             <tr>
               {this.state.teams.map((data, key) => (
-                  <tr>{data.country}<td>{data.rank}</td></tr>
+                  <tr key = {key}>{data.country}<td>{data.rank}</td></tr>
               ))}
             </tr>
           </tbody>
