@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Fifa2018Details.css';
-import Fifa2018Rank from './Fifa2018Rank';
+import Fifa2018PastWinners from './Fifa2018PastWinners';
 import FifaFooter from './FifaFooter';
 import Fifa2018Groups from './Fifa2018Groups';
 import axios from 'axios';
@@ -129,7 +129,7 @@ class Fifa2018Details extends Component {
             </table>
         </div>
           <Fifa2018Groups />
-          <Fifa2018Rank />
+          <Fifa2018PastWinners />
           <FifaFooter />
       </div>
     );

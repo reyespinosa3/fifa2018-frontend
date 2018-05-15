@@ -10,8 +10,8 @@ class FifaCarousel extends Component {
     return (
       <div className="Fifa-Carousel">
 
-        <img src={fifa2014brazil}></img>
-        <img src={fifa2018russia}></img>
+        <img src={fifa2014brazil} alt="fifa 2014 Brazil"></img>
+        <img src={fifa2018russia} alt="fifa 2018 Russia"></img>
 
       </div>
     );
