@@ -4,7 +4,7 @@
 }
 
 .Groups-header {
-  background-color: blue;
+  background-color: rgba(85, 141, 232, .1);
   font-size: 20px;
 }
 
@@ -15,5 +15,5 @@ h1 {
 td {
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: black;
 }

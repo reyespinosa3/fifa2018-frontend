@@ -2,3 +2,9 @@
   display: flex;
   justify-content: space-around;
 }
+
+.Main-div2 {
+  background-image: url('../components/images/hsoccerfield.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+}

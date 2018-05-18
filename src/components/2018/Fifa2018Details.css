@@ -1,14 +1,21 @@
+.Main-div {
+  background-image: url('../images/vsoccerfield.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 .Details-div {
   display: flex;
   justify-content: center;
 }
 
 table {
-  background-color: darkblue;
+  background-color: rgba(85, 141, 232, .5);
 }
 
 .Details-header {
-  background-color: red;
+  background-color: rgba(85, 141, 232, .1);
   font-size: 20px;
 }
 

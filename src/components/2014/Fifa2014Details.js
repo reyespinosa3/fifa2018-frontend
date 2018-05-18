@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
 import './Fifa2014Details.css';
-import fifa2014results from './images/fifa2014results.png';
-import fifa2014brazil from './images/fifa2014brazil.png';
-import fifa2014brazillogo from './images/fifa2014brazillogo.png';
-import fifa2014brazilparrot from './images/fifa2014brazilparrot.png';
-import fifa2014brazilsoccerball from './images/fifa2014brazilsoccerball.png';
-import FifaFooter from './FifaFooter';
+import fifa2014results from '../images/fifa2014results.png';
+import fifa2014brazillogo from '../images/fifa2014brazillogo.png';
+import FifaFooter from '../FifaFooter';
 
 class Fifa2014Details extends Component {
   render() {
     return (
-      <div>
+      <div className="Main-div1">
 
         <div className="Logos">
-          <img src={fifa2014brazil} alt="fifa 2014"></img>
           <img src={fifa2014brazillogo} alt="fifa 2014 logo"></img>
-          <img src={fifa2014brazilparrot} alt="fifa 2014 parrot"></img>
-          <img src={fifa2014brazilsoccerball} alt="fifa 2014 soccer ball"></img>
         </div>
 
         <h4>Click the links below to view details about the FIFA 2014 World Cup Tournament held in Bazil</h4>

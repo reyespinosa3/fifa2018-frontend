@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import './Fifa2018Details.css';
 import Fifa2018PastWinners from './Fifa2018PastWinners';
-import FifaFooter from './FifaFooter';
+import FifaFooter from '../FifaFooter';
 import Fifa2018Groups from './Fifa2018Groups';
-import axios from 'axios';
-import fifa2018russialogo from './images/fifa2018russialogo.png';
-import fifa2018russia from './images/fifa2018russia.png';
+import fifa2018russialogo from '../images/fifa2018russialogo.png';
 
 class Fifa2018Details extends Component {
   state = {
@@ -48,10 +47,9 @@ class Fifa2018Details extends Component {
 
 
     return (
-      <div>
+      <div className="Main-div">
         <div className="fifa2018images">
-          <img src={fifa2018russialogo}></img>
-          <img src={fifa2018russia}></img>
+          <img src={fifa2018russialogo} alt="russia logo"></img>
         </div>
         <h1>Teams By Region</h1>
         <div className="Details-div">

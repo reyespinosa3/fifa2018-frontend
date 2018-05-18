@@ -13,7 +13,7 @@ class Header extends Component {
   }
 
   componentWillMount() {
-    let kickOffTime = new Date('2018-06-14 11:00:00');
+    let kickOffTime = new Date('2018-06-14 10:00:00');
     let timeNow = Date.now();
     let timeDiff = Math.abs(timeNow - kickOffTime)/1000;
     let diff = Math.abs(timeNow - kickOffTime)/1000;
@@ -22,17 +22,20 @@ class Header extends Component {
     let hoursLeft = Math.floor(timeDiff/3600) % 24;
     timeDiff -= hoursLeft * 3600;
     let minutesLeft = Math.floor(timeDiff/60) % 60;
+    timeDiff -= minutesLeft * 60;
+    let secondsLeft = Math.floor(timeDiff);
     this.setState({
       days: daysLeft,
       hours: hoursLeft,
       minutes: minutesLeft,
+      seconds: secondsLeft,
       interval: diff
     })
   }
 
   minusOne() {
   if(this.state.interval > 0){
-    let kickOffTime = new Date('2018-06-14 11:00:00');
+    let kickOffTime = new Date('2018-06-14 10:00:00');
     let timeNow = Date.now();
     let timeDiff = Math.abs(timeNow - kickOffTime)/1000;
     let daysLeft = Math.floor(timeDiff/86400);
@@ -40,16 +43,19 @@ class Header extends Component {
     let hoursLeft = Math.floor(timeDiff/3600) % 24;
     timeDiff -= hoursLeft * 3600;
     let minutesLeft = Math.floor(timeDiff/60) % 60;
+    timeDiff -= minutesLeft * 60;
+    let secondsLeft = Math.floor(timeDiff);
     this.setState({
       days: daysLeft,
       hours: hoursLeft,
-      minutes: minutesLeft
+      minutes: minutesLeft,
+      seconds: secondsLeft
     })
   }
 }
 
 componentDidMount(){
-  setInterval(() => this.minusOne(), 5000);
+  setInterval(() => this.minusOne(), 1000);
 }
 
     render() {
@@ -66,6 +72,7 @@ componentDidMount(){
               <h3>Days: {this.state.days}</h3>
               <h3>Hours: {this.state.hours}</h3>
               <h3>Minutes: {this.state.minutes}</h3>
+              <h3>Seconds: {this.state.seconds}</h3>
             </div>
       </div>
     );

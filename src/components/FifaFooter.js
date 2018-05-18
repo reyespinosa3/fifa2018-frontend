@@ -5,7 +5,7 @@ class FifaFooter extends Component {
   render() {
     return (
       <div>
-        <p>Created by Rey Espinosa from my love of soccer</p>
+        <h3 className="H3footer">Created by Rey Espinosa from my love of soccer</h3>
       </div>
     );
   }

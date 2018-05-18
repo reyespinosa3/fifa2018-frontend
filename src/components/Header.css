@@ -2,10 +2,20 @@
   background-color: darkblue;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
+  height: 200px;
 }
 
 .Countdown-div {
   background-color: red;
   color: white;
   font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 20px;
+  color: white;
 }

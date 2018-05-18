@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './FifaGamesContainer.css';
 import FifaCarousel from '../components/FifaCarousel';
-import Fifa2014 from '../components/Fifa2014';
-import Fifa2018 from '../components/Fifa2018';
+import Fifa2014 from '../components/2014/Fifa2014';
+import Fifa2018 from '../components/2018/Fifa2018';
 import FifaFooter from '../components/FifaFooter';
 
 
 class FifaGamesContainer extends Component {
   render() {
     return (
-      <div>
+      <div className="Main-div2">
         <div>
           <FifaCarousel />
         </div>

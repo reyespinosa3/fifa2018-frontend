@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import './Fifa2018Groups.css';
 
-export class Fifa2018AddPlayer extends Component {
+export class Fifa2018PastWinners extends Component {
   state = {
     teams: []
   }
@@ -60,4 +60,4 @@ export class Fifa2018AddPlayer extends Component {
 }
 
 
-export default Fifa2018AddPlayer;
+export default Fifa2018PastWinners;
