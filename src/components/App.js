@@ -19,8 +19,8 @@ class App extends Component {
       <div>
         <Header />
         <nav className="Nav-links">
-          <NavLink exact to='/' activeClassName="Selected">Home</NavLink>
           <NavLink to='/2014' activeClassName="Selected">FIFA 2014 Details</NavLink>
+          <NavLink exact to='/' activeClassName="Selected">Home</NavLink>
           <NavLink to='/2018' activeClassName="Selected">FIFA 2018 Details</NavLink>
         </nav>
 

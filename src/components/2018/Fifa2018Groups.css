@@ -6,14 +6,16 @@
 .Groups-header {
   background-color: rgba(85, 141, 232, .1);
   font-size: 20px;
+  color: white;
 }
 
 h1 {
   text-align: center;
+  color: white;
 }
 
 td {
   font-size: 20px;
   text-align: center;
-  color: black;
+  color: white;
 }

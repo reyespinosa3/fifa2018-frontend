@@ -29,9 +29,11 @@ class Fifa2014Details extends Component {
           target="_blank" rel="noopener noreferrer">All 2014 Statistics</a>
         </div>
 
-        <div className="image">
-          <img id="results" src={fifa2014results} alt="fifa 2014 winners"></img>
-        </div>
+
+          <div className="Image">
+            <img id="results" src={fifa2014results} alt="fifa 2014 winners"></img>
+          </div>
+        
         <FifaFooter />
       </div>
     );

@@ -7,10 +7,11 @@ class Fifa2018 extends Component {
       <div className="Fifa2018">
         <h2>Get a preview of the FIFA 2018 World Cup</h2>
         <h2>by clicking on the FIFA 2018 DETAILS link above</h2>
-        <h2>Or use the link below to navigate to the</h2>
-        <h2>OFFICIAL FIFA.COM website</h2>
-        <a href="http://www.fifa.com/worldcup/" target="_blank" rel="noopener noreferrer">FIFA.com</a>
-
+        <h2>use the link below to navigate to the</h2>
+        <h2>
+        <a href="http://www.fifa.com/worldcup/" target="_blank" rel="noopener noreferrer">OFFICIAL FIFA.com</a>
+        </h2>
+        <h2>Or watch this 4 minute preview</h2>
         <div>
           <iframe title="2018vid" width="400" height="250" src="https://www.youtube.com/embed/6QsIvzS4_ws"
           frameBorder="15" allow="autoplay; encrypted-media" allowFullScreen></iframe>

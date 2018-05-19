@@ -48,13 +48,15 @@ class Fifa2018Details extends Component {
 
     return (
       <div className="Main-div">
+
         <div className="fifa2018images">
           <img src={fifa2018russialogo} alt="russia logo"></img>
         </div>
-        <h1>Teams By Region</h1>
-        <div className="Details-div">
 
-            <table border='1' cellSpacing='15' cellPadding='15'>
+        <h1>Teams By Region</h1>
+
+        <div className="Details-div">
+            <table cellSpacing='15'>
               <tbody>
                 <tr>
                   <th className="Details-header">Europe</th>
@@ -126,6 +128,7 @@ class Fifa2018Details extends Component {
               </tbody>
             </table>
         </div>
+
           <Fifa2018Groups />
           <Fifa2018PastWinners />
           <FifaFooter />

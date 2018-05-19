@@ -1,8 +1,14 @@
+.Background {
+
+}
+
 .App-header {
-  background-color: darkblue;
+  background-image: url('./images/soccerfansthankyou.png');
+  background-size: cover;
+  background-position: top;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
-  height: 200px;
+  height: 300px;
 }
 
 .Countdown-div {
@@ -15,7 +21,7 @@ h1 {
   font-size: 45px;
 }
 
-h3 {
-  font-size: 20px;
+h2 {
+  font-size: 24px;
   color: white;
 }

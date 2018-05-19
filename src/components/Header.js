@@ -64,15 +64,16 @@ componentDidMount(){
       <div>
         <div className='App-header'>
           <h1>Countdown to FIFA 2018 World Cup</h1>
-          <h3>Host Nation: Russia</h3>
-          <h3>Time until first kick-off</h3>
+          <h2>June 14 through July 15</h2>
+          <h2>Host Nation: Russia</h2>
+          <h2>Time until first kick-off</h2>
         </div>
 
             <div className='Countdown-div'>
-              <h3>Days: {this.state.days}</h3>
-              <h3>Hours: {this.state.hours}</h3>
-              <h3>Minutes: {this.state.minutes}</h3>
-              <h3>Seconds: {this.state.seconds}</h3>
+              <h2>Days: {this.state.days}</h2>
+              <h2>Hours: {this.state.hours}</h2>
+              <h2>Minutes: {this.state.minutes}</h2>
+              <h2>Seconds: {this.state.seconds}</h2>
             </div>
       </div>
     );

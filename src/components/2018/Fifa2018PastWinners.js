@@ -29,7 +29,7 @@ export class Fifa2018PastWinners extends Component {
       <div>
         <h1>Past Tournament Winners</h1>
         <div  className="Groups-div">
-        <table border='1' cellSpacing='15' cellPadding='15'>
+        <table cellSpacing='15'>
           <tbody>
             <tr>
               <td> {pastWinners[0]} </td>
