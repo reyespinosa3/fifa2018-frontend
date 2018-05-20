@@ -1,12 +1,9 @@
-.Background {
-
-}
-
-.App-header {
+.App-Header {
   background-image: url('./images/soccerfansthankyou.png');
   background-size: cover;
-  background-position: top;
+  background-position: center;
   text-align: center;
+  text-shadow: -2px -2px 15px #FF0000;
   font-family: 'Ubuntu', sans-serif;
   height: 300px;
 }
@@ -23,5 +20,4 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color: white;
 }

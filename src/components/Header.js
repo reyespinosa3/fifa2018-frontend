@@ -62,7 +62,7 @@ componentDidMount(){
 
     return (
       <div>
-        <div className='App-header'>
+        <div className='App-Header'>
           <h1>Countdown to FIFA 2018 World Cup</h1>
           <h2>June 14 through July 15</h2>
           <h2>Host Nation: Russia</h2>
