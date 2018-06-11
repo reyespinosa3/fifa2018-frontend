@@ -12,8 +12,7 @@ FIFA 2018 Preview Page
 ![alt text](https://i.imgur.com/Rcuc1kE.png)
 ## Technologies Used
 ---
-HTML - CSS - Javascript
-ReactJS - MongoDB
+HTML - CSS - Javascript - ReactJS - MongoDB
 
 ## Movtivation
 ---

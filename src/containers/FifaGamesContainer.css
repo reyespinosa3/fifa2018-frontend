@@ -2,11 +2,8 @@
   display: flex;
   justify-content: space-around;
   background-image: url('../components/images/hsoccerfield.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size:auto;
+  background-repeat:no-repeat;
   background-position: center;
-  height: 600px;
-}
-
-.Main-div2 {
+  height: auto;
 }

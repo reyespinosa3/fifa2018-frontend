@@ -1,5 +1,5 @@
-.Fifa-Carousel {
-  text-align: center;
+.Fifacarousel {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  background-color: blue;
 }

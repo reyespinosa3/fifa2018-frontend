@@ -1,4 +1,7 @@
 .Fifa2018Stadiums {
-  background-color: blue;
+  background-image: url('../images/hsoccerfield.png');
+  background-position: top;
+  background-repeat: repeat-y;
+  background-size: contain;
   text-align: center;
 }

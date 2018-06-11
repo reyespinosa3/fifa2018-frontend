@@ -13,7 +13,7 @@ class Fifa2018 extends Component {
         </h2>
         <h2>Or watch this 4 minute preview</h2>
         <div>
-          <iframe title="2018vid" width="400" height="250" src="https://www.youtube.com/embed/6QsIvzS4_ws"
+          <iframe title="2018vid" width="400" height="250" src="https://www.youtube.com/embed/G7Y1M2532BI"
           frameBorder="15" allow="autoplay; encrypted-media" allowFullScreen></iframe>
         </div>
       </div>

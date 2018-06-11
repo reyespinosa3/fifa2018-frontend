@@ -1,0 +1,12 @@
+.FifaPlayer {
+  background-image: url('../images/hsoccerfield.png');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 200px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+}
