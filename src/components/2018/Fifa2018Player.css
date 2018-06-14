@@ -3,10 +3,11 @@
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
-  height: 200px;
+  height: auto;
   text-align: center;
 }
 
 h2 {
   font-size: 36px;
+  color: black;
 }

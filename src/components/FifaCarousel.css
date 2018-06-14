@@ -1,5 +1,8 @@
 .Fifacarousel {
   display: flex;
   justify-content: center;
+}
+
+.slide-show_slide-show-size {
   background-color: blue;
 }
