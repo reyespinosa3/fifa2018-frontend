@@ -19,6 +19,10 @@ class Fifa2018Player extends Component {
     console.log(this.state.player);
     this.state.playerarray.push(this.state.player);
     console.log(this.state.playerarray);
+    this.setState({
+      player: ''
+    })
+    event.target.reset();
   }
 
 
@@ -41,7 +45,9 @@ class Fifa2018Player extends Component {
         </div>
 
         <div>
-          <h2>{ this.state.playerarray }</h2>
+          { this.state.playerarray.map((item, i) => {
+            return<h2 key={i}>{item}</h2>
+          })}
         </div>
 
         <div>

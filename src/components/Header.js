@@ -13,7 +13,7 @@ class Header extends Component {
   }
 
   componentWillMount() {
-    let kickOffTime = new Date('2018-06-14 10:00:00');
+    let kickOffTime = new Date('2018-06-14 16:28:00');
     let timeNow = Date.now();
     let timeDiff = Math.abs(timeNow - kickOffTime)/1000;
     let diff = Math.abs(timeNow - kickOffTime)/1000;
@@ -34,8 +34,11 @@ class Header extends Component {
   }
 
   minusOne() {
-  if(this.state.interval > 0){
-    let kickOffTime = new Date('2018-06-14 10:00:00');
+  if (this.state.days === 0 && this.state.hours === 0
+    && this.state.minutes === 0 && this.state.seconds === 0) {
+    console.log("times up");
+  } else if (this.state.interval > 0){
+    let kickOffTime = new Date('2018-06-14 16:28:00');
     let timeNow = Date.now();
     let timeDiff = Math.abs(timeNow - kickOffTime)/1000;
     let daysLeft = Math.floor(timeDiff/86400);
@@ -54,9 +57,9 @@ class Header extends Component {
   }
 }
 
-componentDidMount(){
-  setInterval(() => this.minusOne(), 1000);
-}
+// componentDidMount(){
+//   setInterval(() => this.minusOne(), 1000);
+// }
 
     render() {
 
@@ -65,8 +68,6 @@ componentDidMount(){
         <div className='App-Header'>
           <h1>Countdown to FIFA 2018 World Cup</h1>
           <h2>June 14 through July 15</h2>
-          <h2>Host Nation: Russia</h2>
-          <h2>Time until first kick-off</h2>
         </div>
 
             <div className='Countdown-div'>
